@@ -97,7 +97,7 @@ def create_hero_power():
         # Email
         msg = Message(
            subject=f"{hero.super_name} gained a new power!",
-            recipients=["hawkswilliams000@gmaiol.com"],
+            recipients=["lydiakinuthia91gmaiol.com"],
             body=f"{hero.name} has been granted the power of {power.name} with strength: {hero_power.strength}."
         )
         mail.send(msg)
